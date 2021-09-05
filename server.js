@@ -1,5 +1,5 @@
 const express = require('express'); // we will use common js syntax to bring in express (react itself uses import)
-const connectDB = require('./config /db'); // bringing in the connectDB
+const connectDB = require('./config/db'); // bringing in the connectDB
 
 const app = express(); // we will initiailize express into a variable called app
 
