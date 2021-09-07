@@ -6,6 +6,10 @@ const app = express(); // we will initiailize express into a variable called app
 // now to acctually connect the Database
 connectDB();
 
+// Init Middleware
+app.use(express.json({ extended: false }));
+
+
 // here we will add an endpoint route for testing purposes using a get request to the homepage with ('/')
 // and then it takes in a arrow function with a request and a response which will send a hello world
 
