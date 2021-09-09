@@ -28,7 +28,7 @@ const ContactForm = () => {
   };
 
   return (
-    <form onSubmit={onsubmit}>
+    <form onSubmit={onSubmit}>
       <h2 className='text-primary'>Add Contact</h2>
       <input
         type='text'
@@ -45,7 +45,7 @@ const ContactForm = () => {
         onChange={onChange}
       />
       <input
-        type='phone'
+        type='text'
         placeholder='Phone'
         name='phone'
         value={phone}
